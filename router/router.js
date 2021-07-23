@@ -14,14 +14,14 @@ const User = require('../model/userSchema.js')
 
 
  
-router.get('/' , (req ,res)=>{
-    console.log("I am Home")
-    res.send("I am Home")
-})
+// router.get('/' , (req ,res)=>{
+//     console.log("I am Home")
+//     res.send("I am Home")
+// })
 
-router.get('/about' , (req ,res)=>{
-    console.log("I am Home")
-})
+// router.get('/about' , (req ,res)=>{
+//     console.log("I am About")
+// })
 
 router.post('/contact', authenticate , async (req ,res)=>{
     
