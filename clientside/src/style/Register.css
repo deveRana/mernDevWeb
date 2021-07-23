@@ -146,3 +146,21 @@ button{
     }
 
 }
+
+@media (max-width:280px) {
+   
+    .registerInnerDiv h3{
+        font-size: 28px;
+    }
+
+    label{
+        font-size: 15.5px;
+    }
+    input{
+        font-size: 15.5px;
+    }
+    button{
+        font-size: 15.5px;
+    }
+
+}
