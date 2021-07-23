@@ -30,6 +30,11 @@
 }
 
 @media (max-width:400px) {
+
+    .footerContainer{
+        display:none;
+    }
+
     .footerContainer h2{
         font-size: 14px;
         letter-spacing: 0px;
